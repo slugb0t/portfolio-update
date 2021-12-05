@@ -67,3 +67,9 @@ html, body {
     background-size: contain;
     position: relative;
 }
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
