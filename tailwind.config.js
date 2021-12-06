@@ -3,6 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      padding: {
+        '1/3': '33.33333%',
+        '2/3': '66.66667%'
+      },
       colors: {
         'body': '#131313',
         'selected-text-': '#A3A3FF',
@@ -19,6 +23,9 @@ module.exports = {
       }
     },
   },
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
   variants: {
     extend: {},
   },
